@@ -113,15 +113,15 @@ export const useTimerStore = create<TimerState>()(
     }),
     {
       name: "pomodoro-timer-store",
+      version: 2,
       partialize: (state) => ({
-        durations: state.durations,
         activeAura: state.activeAura,
         autoFlow: state.autoFlow,
         asmrTicking: state.asmrTicking,
       }),
       onRehydrateStorage: () => (state) => {
         if (state) {
-          // Align timeLeft with the loaded durations on boot
+          // Always reset timeLeft to the code-default durations on boot
           state.timeLeft = state.durations[state.mode];
         }
       }
