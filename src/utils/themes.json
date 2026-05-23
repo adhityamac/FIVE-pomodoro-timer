@@ -1,0 +1,74 @@
+[
+  {
+    "id": "rose",
+    "name": "Rose",
+    "outer": "#f8c4ce",
+    "mid": "#f08a9b",
+    "inner": "#d63347",
+    "core": "#9e1726",
+    "dialStop1": "#2d0b10",
+    "dialStop2": "#140406",
+    "dialStop3": "#030001"
+  },
+  {
+    "id": "bubblegum",
+    "name": "Bubblegum",
+    "outer": "#bff0f5",
+    "mid": "#fbe2ec",
+    "inner": "#f592b5",
+    "core": "#e91e63",
+    "dialStop1": "#1d1822",
+    "dialStop2": "#0d0b10",
+    "dialStop3": "#020103"
+  },
+  {
+    "id": "sunrise",
+    "name": "Sunrise",
+    "outer": "#1e7fc4",
+    "mid": "#7fc4d8",
+    "inner": "#f5c95a",
+    "core": "#fde047",
+    "dialStop1": "#0a1824",
+    "dialStop2": "#040b12",
+    "dialStop3": "#010305"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "outer": "#3f3f46",
+    "mid": "#18181b",
+    "inner": "#ffffff",
+    "core": "#09090b",
+    "bgInactive": "radial-gradient(ellipse at center, #09090b 0%, #000000 75%)",
+    "bgActive": "radial-gradient(ellipse at center, #171720 0%, #09090b 60%, #000000 100%)",
+    "dialStop1": "#18181b",
+    "dialStop2": "#09090b",
+    "dialStop3": "#020202"
+  },
+  {
+    "id": "midnight",
+    "name": "Midnight",
+    "outer": "#1f2937",
+    "mid": "#111827",
+    "inner": "#0a84ff",
+    "core": "#030712",
+    "bgInactive": "radial-gradient(ellipse at center, #070a13 0%, #000000 75%)",
+    "bgActive": "radial-gradient(ellipse at center, #0a254c 0%, #070a13 65%, #000000 100%)",
+    "dialStop1": "#0a1c36",
+    "dialStop2": "#050e1b",
+    "dialStop3": "#010408"
+  },
+  {
+    "id": "wayfinder",
+    "name": "Wayfinder",
+    "outer": "#27272a",
+    "mid": "#18181b",
+    "inner": "#ff453a",
+    "core": "#09090b",
+    "bgInactive": "radial-gradient(ellipse at center, #0c0202 0%, #000000 75%)",
+    "bgActive": "radial-gradient(ellipse at center, #350909 0%, #0c0202 65%, #000000 100%)",
+    "dialStop1": "#2a0c0c",
+    "dialStop2": "#120505",
+    "dialStop3": "#030101"
+  }
+]
